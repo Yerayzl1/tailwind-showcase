@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind App</title>
+  </head>
+  <body>
+    <h1 class="mt-8 ml-3 text-3xl font-bold">Tailwind Showcase</h1>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <h2 class="text-2xl mb-4 font-semibold px-3 pt-3">Colors and Backgrounds</h2>
+      <div class="flex px-3 pb-3">
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-400"></div>
+        <div class="h-20 flex-grow bg-red-200 border-2 border-red-400"></div>
+        <div class="h-20 flex-grow bg-yellow-200 border-2 border-yellow-400"></div>
+        <div class="h-20 flex-grow bg-green-200 border-2 border-green-400"></div>
+      </div>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <div class="flex p-4">
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-600"></div>
+        <div class="h-20 flex-grow bg-gray-300 border-2 border-gray-600"></div>
+        <div class="h-20 flex-grow bg-gray-400 border-2 border-gray-600"></div>
+        <div class="h-20 flex-grow bg-gray-500 border-2 border-gray-600"></div>
+      </div>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <h2 class="text-2xl mb-4 font-semibold px-3 pt-3">Text</h2>
+      <div class="px-3 pb-3">
+        <p class="text-sm">This is a small text.</p>
+        <p class="text-base">This is a base text.</p>
+        <p class="text-lg">This is a large text.</p>
+        <p class="text-xl">This is a extra text.</p>
+        <p class="text-3xl">This is a 3x extra large text.</p>
+        <p class="text-4xl">This is a 4x extra large text.</p>
+        <p class="text-5xl">This is a 5x extra large text.</p>
+        <p class="text-8xl">This is a 8x extra large text.</p>
+        <p class="text-9xl">This is a 9x extra large text.</p>
+      </div>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <h2 class="text-2xl mb-4 font-semibold px-3 pt-3">Text Decoration</h2>
+      <div class="px-3 pb-3">
+        <p class="underline">This is an underline text.</p>
+        <p class="line-through">This is a line-through text.</p>
+        <p class="line-through">This is a underline and line-through text.</p>
+      </div>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <h2 class="text-2xl mb-4 font-semibold px-3 pt-3">Text Alignment</h2>
+      <div class="px-3 pb-3">
+        <p class="text-left">This is a left-aligned text.</p>
+        <p class="text-center">This is a center-aligned text.</p>
+        <p class="text-right">This is a right-aligned text.</p>
+      </div>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <h2 class="text-2xl mb-4 font-bold">Sizes</h2>
+      <div class="flex p-4">
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-400 flex items-center justify-center text-xs">XS</div>
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-500 flex items-center justify-center text-sm">SM</div>
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-600 flex items-center justify-center text-base">BASE</div>
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-700 flex items-center justify-center text-lg">LG</div>
+      </div>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200">
+      <h2 class="text-2xl mb-4 font-bold">Borders</h2>
+      <div class="flex p-4">
+        <div class="h-20 flex-grow bg-gray-200 border-2 border-gray-600 rounded"></div>
+        <div class="h-20 flex-grow bg-gray-300 border-2 border-gray-600 rounded-md"></div>
+        <div class="h-20 flex-grow bg-gray-400 border-2 border-gray-600 rounded-lg"></div>
+        <div class="h-20 flex-grow bg-gray-500 border-2 border-gray-600 rounded-full"></div>
+      </div>  
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200 p-3">
+      <h2 class="text-2xl mb-4 font-bold">Margin</h2>
+      <div>
+        <div class="m-6  bg-gray-200 border-2 border-gray-600"><p>This div has a margin of 1.5rem on all sides.</p></div>
+        <div class="mx-6 my-12 bg-gray-300 border-2 border-gray-600"><p>This div has a margin of 1.5rem on all sides.</p></div>
+        <div class="mt-4 mr-8 mb-12 ml-16 bg-gray-300 border-2 border-gray-600"><p>This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left</p></div>
+      </div>
+    </div>
+    <div class="mt-8 ml-3">
+      <div class="mb-4 pb-2 border-b border-gray-300">
+        <h5 class="font-bold text-lg">Card 1</h5>
+      </div>
+      <img class="w-300 h-200" src="https://via.placeholder.com/300x200" alt="Placeholder Image">
+      <h5 class="font-bold text-lg">Card Title</h5>
+      <p class="text-gray-700 text-base">This is a basic card example with an image and no flex.</p>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
+    </div>  
+    <div class="mt-8 ml-3">
+      <div class="mb-4 pb-2 border-b border-gray-300">
+        <h5 class="font-bold text-lg">Card 2</h5>
+      </div>
+      <h5 class="font-bold text-lg">Card Title</h5>
+      <p class="text-gray-700 text-base">This is a basic card example with an image and no flex.</p>
+      <ul class="list-disc list-inside">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
+    </div>
+    <div class="mt-8 ml-3 bg-gray-200 p-3">
+      <h2 class="text-2xl mb-4 font-bold">Buttons</h2>
+      <div>
+        <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Button 1</button>
+        <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-full">Button 2</button>
+        <button class="bg-red-500 text-white font-bold py-2 px-4 rounded-xl">Button 3</button>
+      </div>
+    </div>
+  </body>
+</html>
